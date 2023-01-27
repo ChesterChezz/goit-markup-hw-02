@@ -1,0 +1,41 @@
+.logo_style{
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 18px;
+    text-decoration: none;
+}
+.nav_style li{
+    font-weight: 500;
+}
+.address_style li{
+    font-style: normal;
+}
+.header1_style {
+    font-family: Roboto;
+    font-weight: 700;
+    font-size: 56px;
+    color: #FFFFFF;
+}
+.order_btn{
+    background: #4D5AE5;
+    color: #FFFFFF;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.main_section{
+    background-color: #2E2F42;
+}
+.header3_style{
+    font-weight: 500;
+    font-size: 20px;
+}
+.header2_style{
+    font-weight: 700;
+    font-size: 36px;
+}
+.footer_style{
+    background-color: #2E2F42;
+    color: #FFFFFF;
+   font-size: 16px;
+   font-weight: 400;
+}
