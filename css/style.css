@@ -1,14 +1,65 @@
+body{ 
+    font-family: Roboto;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.02em;
+}
 .logo_style{
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
     font-family: Raleway;
     font-weight: 800;
     font-size: 18px;
     text-decoration: none;
+    color: #2E2F42;
+}
+.logo_style:active {
+    font-family: Raleway;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: normal;
+    text-decoration: none;
+    color: #2E2F42;
+}
+.logospan_style{
+ color: #4D5AE5;
+}
+.logospanfooter_style{
+color: #F4F4FD;
 }
 .nav_style li{
     font-weight: 500;
+    list-style: none;
+    text-decoration:none;
+}
+.nav_style li a{
+    text-decoration: none;
+    color: #2E2F42;
+}
+.nav_style li a:active { 
+    text-decoration: none;
+    color: #2E2F42;
+}
+.nav_style li a:hover {
+    text-decoration: underline;
+    color: #2E2F42;
 }
 .address_style li{
     font-style: normal;
+    list-style: none;
+    text-decoration: none;
+}
+.address_style li a { 
+    text-decoration: none;
+    color: #434455;
+}
+.address_style li a:active {
+    text-decoration: none;
+    color: #434455;
+}
+.address_style li a:hover {
+    text-decoration: underline;
+    color: #434455;
 }
 .header1_style {
     font-family: Roboto;
@@ -21,6 +72,13 @@
     color: #FFFFFF;
     border-radius: 4px;
     cursor: pointer;
+    width: 169px;
+    height: 56px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-width: 0px;
+}
+.undottedlist_style li{
+ list-style: none;
 }
 .main_section{
     background-color: #2E2F42;
@@ -38,4 +96,38 @@
     color: #FFFFFF;
    font-size: 16px;
    font-weight: 400;
+}
+
+/*=============== PORTFOLIO ==============*/
+
+.portfoliobuttonslist{
+    list-style: none;
+}
+.portfoliobuttonslist button{
+    width: 116px;
+    height: 48px;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    color: #4D5AE5;
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 16px;
+}
+.portfoliobuttonslist button:hover , 
+.portfoliobuttonslist button:active {
+    cursor: pointer;
+    color: #FFFFFF;
+    background: #404BBF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+.portfoliomenu_style{
+    list-style: none;
+}
+
+.portfoliomenu_style h2{
+    font-size: 20px;
+    font-weight: 500;
 }
